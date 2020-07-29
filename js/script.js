@@ -11,26 +11,28 @@ $('.banner-slider').slick({
     infinite: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToShow: 1,
+        slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+          dots: false,
+          autoPlay: true,
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -58,7 +60,7 @@ $('.screenshort-slider').slick({
     infinite: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -66,18 +68,29 @@ $('.screenshort-slider').slick({
         dots: true
       }
     },
+      
+      {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+      
     {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -107,9 +120,37 @@ $('.details').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows:false,
-    asNavFor: '.images'
+    asNavFor: '.images',
 
-  });
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
 
   $('.images').slick({
     dots: true,
@@ -120,9 +161,39 @@ $('.details').slick({
     arrows:false,
     centerMode:true,
     centerPadding:0,
-    asNavFor: '.details'
-
-  });
+    asNavFor: '.details',
+    
+      
+responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+          padding: 0,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});      
 
 //****************** feedback slider  part js end *******************************
 

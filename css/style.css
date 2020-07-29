@@ -245,6 +245,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 5px;
     height: 5px;
     background: transparent;
+    border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -732,6 +733,15 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 50px;
     font-size: 24px;
     transition: .4s;
+}
+
+#team-part .team .img .overlay a i{
+    color: #353535;
+    transition: .4s;
+}
+
+#team-part .team .img .overlay a i:hover{
+    color: #ffff;
 }
 
 #team-part .team .img .overlay a:hover{

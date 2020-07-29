@@ -1,0 +1,820 @@
+/*
+****************************************************
+    extra small device responsive start
+****************************************************
+*/
+@media (min-width:320px) and (max-width:575px){
+    
+/*   ********* section heading part start ********** */
+    .section-title h4{
+        font-size: 20px;
+    }
+/*   ********* section heading part end ********** */
+    
+    
+    
+    
+/*   ********* header top part start ********** */
+    .fa{
+        color: #fff;
+    }
+/*   ********* header top part end *********** */
+   
+    
+    
+    
+/*   ********* banner  part start *********** */
+    #banner-part .banner .overlay{
+        padding-top: 175px;
+        padding-bottom: 60px;
+    }
+    
+    #banner-part .banner .overlay .text-box{
+        text-align: center;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 26px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4::after{
+        right: 350%;
+    }
+    
+    
+    #banner-part .banner .overlay .text-box p{
+        width: auto;
+    }
+    
+    #banner-part .banner .overlay .text-box a{
+        margin-top: 20px;
+    }
+    
+    .home{
+        display: none;
+    }
+/*   ********* banner  part end *********** */
+        
+        
+/*   ********* about  part start *********** */
+    #about-part{
+        padding: 40px 0;
+    }    
+   
+    #about-part .img{
+        padding-top: 20px;
+    }
+    
+    #about-part .img img{
+        width: 100%;
+    }
+/*   ********* about  part end *********** */
+    
+    
+    
+    
+/*   ********* awesome part start *********** */
+    #awesome-part .tab-box .button:after{
+        width: 180px;
+    }
+    
+    #awesome-part .tab-box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #awesome-part .tab-box .nav-pills .nav-link.active .button:after{
+        width: 250px;
+    }
+    
+    #awesome-part .featured-box{
+        display: contents;
+    }
+    
+    #awesome-part .featured-box .img{
+        width: 100%;
+    }
+    
+    #awesome-part .featured-box .text{
+        width: 100%;
+        text-align: center;
+    }
+/*   ********* awesome part end *********** */
+    
+    
+    
+    
+    
+/*   ********* screenshort part start *********** */
+    
+    .slick-slide img{
+        width: 100%;
+    }
+    
+    #screenshort-part ul{
+        bottom: -80px;
+    }
+    
+/*   ********* screenshort part end *********** */
+    
+    
+    
+    
+    
+/*   ********* pricing part start *********** */
+    #screenshort-part ul{
+        margin-top: 50px;
+    }
+/*   ********* pricing part end *********** */
+    
+    
+    
+    
+    
+/*   ********* video part start *********** */
+    #video-part .video .overlay{
+        padding: 130px 0;
+    }
+/*   ********* video part end *********** */
+    
+    
+    
+    
+/*   ********* feedback part start ********** */
+    #feedback-part .feedback .overlay .details .text p{
+        width: auto;
+    }
+    
+    
+    #feedback-part .feedback .overlay .details{
+        width: 288px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    
+    #feedback-part .feedback .overlay .details .text h6{
+        padding-bottom: 20px;
+    }
+    
+    #feedback-part .feedback .overlay .img{
+        width: 288px !important;
+        margin: o auto;
+    }
+    
+    #feedback-part .feedback .overlay .img .images .photo{
+        width: 80px !important;
+        height: 80px;
+        margin: 0 8px;
+    }
+    
+    #feedback-part .feedback .overlay .img .images .slick-current {
+    transform: scale(1.0);
+}
+  
+/*   ********* feedback part end *********** */
+    
+    
+    
+    
+/*   ********* contact part start *********** */
+    #contact-part .lebel form input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel form .mail{
+        margin-left: 0;
+    }
+/*   ********* contact part end *********** */
+    
+    
+/*   ********* footer bottom part start ********* */
+    #footer-bottom{
+        font-size: 14px;
+    }
+/*   ********* footer bottom part end *********** */
+    
+    
+    
+/*   ********* back to top part start *********** */
+    .b-top{
+        display: none;
+    }
+/*   ********* back to top part end *********** */
+}
+/*
+****************************************************
+    extra small device responsive start
+****************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+****************************************************
+    small device responsive start
+****************************************************
+*/
+@media (min-width:576px) and (max-width:767px){
+    
+/*   ********* section heading part start ********** */
+    .section-title h4{
+        font-size: 20px;
+    }
+/*   ********* section heading part end ********** */
+    
+    
+    
+    
+/*   ********* header top part start ********** */
+    .fa{
+        color: #fff;
+    }
+/*   ********* header top part end *********** */
+   
+    
+    
+    
+/*   ********* banner  part start *********** */
+    #banner-part .banner .overlay{
+        padding-top: 175px;
+        padding-bottom: 60px;
+    }
+    
+    #banner-part .banner .overlay .text-box{
+        text-align: center;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 26px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4::after{
+        right: 35%;
+    }
+    
+    
+    #banner-part .banner .overlay .text-box p{
+        width: auto;
+    }
+    
+    #banner-part .banner .overlay .text-box a{
+        margin-top: 20px;
+    }
+    
+    .home{
+        display: none;
+    }
+/*   ********* banner  part end *********** */
+        
+        
+/*   ********* about  part start *********** */
+    #about-part{
+        padding: 40px 0;
+    }    
+   
+    #about-part .img{
+        padding-top: 20px;
+    }
+    
+    #about-part .img img{
+        width: 100%;
+    }
+/*   ********* about  part end *********** */
+    
+    
+    
+    
+/*   ********* awesome part start *********** */
+    #awesome-part .tab-box .button:after{
+        width: 180px;
+    }
+    
+    #awesome-part .tab-box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #awesome-part .tab-box .nav-pills .nav-link.active .button:after{
+        width: 250px;
+    }
+    
+    #awesome-part .featured-box{
+        display: contents;
+    }
+    
+    #awesome-part .featured-box .img{
+        width: 100%;
+    }
+    
+    #awesome-part .featured-box .text{
+        width: 100%;
+        text-align: center;
+    }
+/*   ********* awesome part end *********** */
+    
+    
+    
+    
+    
+/*   ********* screenshort part start *********** */
+    
+    
+    #screenshort-part ul{
+        bottom: -80px;
+    }
+    
+/*   ********* screenshort part end *********** */
+    
+    
+    
+    
+    
+/*   ********* pricing part start *********** */
+    #screenshort-part ul{
+        margin-top: 50px;
+    }
+/*   ********* pricing part end *********** */
+    
+    
+    
+    
+    
+/*   ********* video part start *********** */
+    #video-part .video .overlay{
+        padding: 130px 0;
+    }
+/*   ********* video part end *********** */
+    
+    
+    
+    
+/*   ********* feedback part start ********** */
+    #feedback-part .feedback .overlay .details .text p{
+        width: auto;
+    }
+    
+    
+    #feedback-part .feedback .overlay .details{
+        width: 288px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    
+    #feedback-part .feedback .overlay .details .text h6{
+        padding-bottom: 20px;
+    }
+    
+    #feedback-part .feedback .overlay .img{
+        width: 288px !important;
+        margin: o auto;
+    }
+    
+    #feedback-part .feedback .overlay .img .images .photo{
+        width: 80px !important;
+        height: 80px;
+        margin: 0 8px;
+    }
+  
+/*   ********* feedback part end *********** */
+    
+    
+    
+    
+/*   ********* contact part start *********** */
+    #contact-part .lebel form input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel form .mail{
+        margin-left: 0;
+    }
+/*   ********* contact part end *********** */
+    
+    
+/*   ********* footer bottom part start ********* */
+    #footer-bottom{
+        font-size: 14px;
+    }
+/*   ********* footer bottom part end *********** */
+    
+    
+    
+/*   ********* back to top part start *********** */
+    .b-top{
+        display: none;
+    }
+/*   ********* back to top part end *********** */
+}
+/*
+****************************************************
+    small device responsive end
+****************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+****************************************************
+    medium device responsive start
+****************************************************
+*/
+@media (min-width:768px) and (max-width:991px){
+    
+/*   ********* section heading part start ********** */
+    .section-title h4{
+        font-size: 20px;
+    }
+/*   ********* section heading part end ********** */
+    
+    
+    
+    
+/*   ********* header top part start ********** */
+    .fa{
+        color: #fff;
+    }
+/*   ********* header top part end *********** */
+   
+    
+    
+    
+/*   ********* banner  part start *********** */
+    #banner-part .banner .overlay{
+        padding-top: 175px;
+        padding-bottom: 60px;
+    }
+    
+    #banner-part .banner .overlay .text-box{
+        text-align: center;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 26px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4::after{
+        right: 35%;
+    }
+    
+    
+    #banner-part .banner .overlay .text-box p{
+        width: 425px;
+        margin: 0 auto;
+    }
+    
+    #banner-part .banner .overlay .text-box a{
+        margin-top: 20px;
+    }
+    
+    .home{
+        display: none;
+    }
+/*   ********* banner  part end *********** */
+        
+        
+/*   ********* about  part start *********** */
+    #about-part{
+        padding: 40px 0;
+    }    
+   
+    #about-part .img{
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    
+/*   ********* about  part end *********** */
+    
+    
+    
+    
+/*   ********* awesome part start *********** */
+    #awesome-part .tab-box .button:after{
+        width: 180px;
+    }
+    
+    #awesome-part .tab-box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #awesome-part .tab-box .nav-pills .nav-link.active .button:after{
+        width: 250px;
+    }
+    
+    
+    #awesome-part .featured-box .img{
+        width: 100%;
+    }
+    
+    #awesome-part .featured-box .text{
+        width: 100%;
+        text-align: center;
+    }
+/*   ********* awesome part end *********** */
+    
+    
+    
+    
+    
+/*   ********* screenshort part start *********** */
+    
+    
+    #screenshort-part ul{
+        bottom: -80px;
+    }
+    
+/*   ********* screenshort part end *********** */
+    
+    
+    
+    
+    
+/*   ********* pricing part start *********** */
+    #screenshort-part ul{
+        margin-top: 50px;
+    }
+/*   ********* pricing part end *********** */
+    
+    
+    
+    
+    
+/*   ********* video part start *********** */
+    #video-part .video .overlay{
+        padding: 130px 0;
+    }
+/*   ********* video part end *********** */
+    
+    
+    
+    
+/*   ********* feedback part start ********** */
+    #feedback-part .feedback .overlay .details .text p{
+        width: auto;
+    }
+    
+    
+    #feedback-part .feedback .overlay .details{
+        width: 700px;
+    }
+    
+    #feedback-part .feedback .overlay .details .text h6{
+        padding-bottom: 10px;
+    }
+     
+  
+/*   ********* feedback part end *********** */
+    
+    
+    
+    
+/*   ********* contact part start *********** */
+    #contact-part .lebel form input{
+        width: 100%;
+    }
+    
+    #contact-part .lebel form .mail{
+        margin-left: 0;
+    }
+/*   ********* contact part end *********** */
+    
+    
+/*   ********* footer bottom part start ********* */
+    #footer-bottom{
+        font-size: 14px;
+    }
+/*   ********* footer bottom part end *********** */
+    
+
+}
+/*
+****************************************************
+    medium device responsive end
+****************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+****************************************************
+    large device responsive start
+****************************************************
+*/
+@media (min-width:992px) and (max-width:1199px){
+    
+/*   ********* section heading part start ********** */
+    .section-title h4{
+        font-size: 20px;
+    }
+/*   ********* section heading part end ********** */
+    
+    
+    
+    
+/*   ********* header top part start ********** */
+    .fa{
+        color: #fff;
+    }
+    
+    #header-part ul li a{
+        margin-left: 20px;
+    }
+/*   ********* header top part end *********** */
+   
+    
+    
+    
+/*   ********* banner  part start *********** */
+    #banner-part .banner .overlay{
+        padding-top: 175px;
+        padding-bottom: 60px;
+    }
+    
+    #banner-part .banner .overlay .text-box{
+        text-align: center;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 26px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4::after{
+        right: 35%;
+    }
+    
+    
+    #banner-part .banner .overlay .text-box p{
+        width: 425px;
+        margin: 0 auto;
+    }
+    
+    #banner-part .banner .overlay .text-box a{
+        margin-top: 20px;
+    }
+    
+    .home{
+        top: 39%;
+    }
+/*   ********* banner  part end *********** */
+        
+        
+/*   ********* about  part start *********** */
+    #about-part{
+        padding: 40px 0;
+    }    
+   
+    #awesome-part .featured-box .img img{
+        width: auto;
+        height: auto;
+    }
+    
+    #awesome-part .featured-box .img{
+        padding-top: 30px;
+    }
+/*   ********* about  part end *********** */
+    
+    
+    
+    
+/*   ********* awesome part start *********** */
+    #awesome-part .tab-box .button:after{
+        width: 180px;
+    }
+    
+    #awesome-part .tab-box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #awesome-part .tab-box .nav-pills .nav-link.active .button:after{
+        width: 250px;
+    }
+    
+    
+    #awesome-part .featured-box .img{
+        width: 100%;
+    }
+    
+    #awesome-part .featured-box .text{
+        width: 100%;
+        text-align: center;
+    }
+/*   ********* awesome part end *********** */
+    
+    
+    
+    
+    
+/*   ********* screenshort part start *********** */
+    
+    
+    #screenshort-part ul{
+        bottom: -80px;
+    }
+    
+/*   ********* screenshort part end *********** */
+    
+    
+    
+    
+    
+/*   ********* pricing part start *********** */
+    #screenshort-part ul{
+        margin-top: 50px;
+    }
+/*   ********* pricing part end *********** */
+    
+    
+    
+    
+    
+/*   ********* video part start *********** */
+    #video-part .video .overlay{
+        padding: 130px 0;
+    }
+/*   ********* video part end *********** */
+    
+    
+    
+    
+/*   ********* feedback part start ********** */
+    #feedback-part .feedback .overlay .details .text p{
+        width: auto;
+    }
+    
+    
+    #feedback-part .feedback .overlay .details{
+        width: 700px;
+    }
+    
+    #feedback-part .feedback .overlay .details .text h6{
+        padding-bottom: 10px;
+    }
+     
+  
+/*   ********* feedback part end *********** */
+    
+    
+    
+    
+/*   ********* contact part start *********** */
+    #contact-part .lebel form input{
+        width: 30%;
+    }
+    
+    #contact-part .lebel form .mail{
+        margin-left: 40px;
+    }
+/*   ********* contact part end *********** */
+    
+    
+/*   ********* footer bottom part start ********* */
+    #footer-bottom{
+        font-size: 14px;
+    }
+/*   ********* footer bottom part end *********** */
+    
+
+}
+/*
+****************************************************
+    large device responsive end
+****************************************************
+*/
+
